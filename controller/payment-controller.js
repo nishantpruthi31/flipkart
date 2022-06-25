@@ -57,7 +57,7 @@ let post_req=https.request(options,function(post_res){
     })
     post_res.on('end',function(){
 let result=JSON.parse(res);
-        response.redirect('');
+        response.redirect('http://localhost:3000/');
     });
     
 });
